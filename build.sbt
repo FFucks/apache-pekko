@@ -6,3 +6,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "apache-pekko"
   )
+
+libraryDependencies ++= Seq(
+    "org.apache.pekko" %% "pekko-actor" % "1.2.1"
+)
